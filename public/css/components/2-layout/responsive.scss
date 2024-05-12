@@ -1,0 +1,58 @@
+// 1540px
+@include xxxxlg-xxxxxlg {
+    @include layout-xxxxlg-xxxxxlg;
+}
+// 1400px
+@include xxxlg-xxxxlg {
+    @include layout-xxxlg-xxxxlg;
+    @include intro-xxxlg-xxxxlg;
+}
+// 1200px
+@include xlg-xxlg-extra {
+    @include layout-xlg-xxlg-extra;
+    @include intro-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+    @include intro-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    @include intro-lg-xlg;
+    @include layout-lg-xlg;
+}
+// 930px
+@include md-lg {
+    @include intro-md-lg;
+}
+// 750px
+@include sm-md {
+    @include intro-sm-md;
+}
+// 650px
+@include sm-md-extra {
+    @include intro-sm-md-extra;
+    @include layout-sm-md-extra;
+}
+// 540px
+@include xsm-sm  {
+    .progress {
+        &__bar {
+            height: 9px;
+        }
+    }
+    @include intro-xsm-sm;
+    @include layout-xsm-sm;
+}
+// 440px
+@include xxsm-xsm  {
+    @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm  {
+    // @include intro-xxxsm-xxsm;
+}
+

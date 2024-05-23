@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-05-23T17:48:47.121Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15" etag="DTAlQ2p1kZYKz6xG41Zk" version="24.4.4" type="github">
+  <diagram name="Page-1" id="0mxMCkxv7hwcyicH3noS">
+    <mxGraphModel dx="741" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5vAQk28SRoGkNQF1trfT-1" value="Main Page" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-3" value="Library" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-12" value="Shop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-13" value="Events" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-14" value="DAO/Voting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-15" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="132.5" width="35" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-16" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="270" width="35" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-17" value="Books Upload&lt;div style=&quot;text-align: justify;&quot;&gt;Books Download&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Search Library&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Event Directory&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Ex: Book Club, (&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Link to Book &amp;amp; Meeting Place.)&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-19" value="Library Card NFT&lt;div&gt;DAO Tokens&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-20" value="?????" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-21" value="Upload Screen&lt;div&gt;Download Screen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Expand Info Pop-up&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-23" value="Sync Account (Connect Wallet)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-24" value="Whitepaper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-25" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Event Pop-up&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5vAQk28SRoGkNQF1trfT-26" value="Explanation of NFT and download button" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="460" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

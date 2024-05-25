@@ -92,7 +92,7 @@ const Chapter3 = () => {
             width={900} height={900}
           />
         </div>
-        <div className="absolute -bottom-10 -left-56">
+        <div className="absolute -bottom-10 -left-56 -z-0">
           <img src="/images/bg-r-text.png" alt="bg-text" />
         </div>
       </div>

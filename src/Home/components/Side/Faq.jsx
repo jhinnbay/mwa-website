@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 const faqList = [
   {
     id: "1",
@@ -97,7 +98,7 @@ export default function Faq() {
       })}
       <div className="introFaq__foot">
         <div className="introFaq__foot-links">
-          <a href="#"> Whitepaper </a>
+          <Link to="/whitepaper"> Whitepaper </Link>
           <a href="#"> Discord </a>
           <a href="#"> Contract </a>
         </div>

@@ -5,12 +5,12 @@ const Chapter1 = () => {
     <>
       <div className="px-9 pb-16 relative">
         <div className="py-2.5 border-b border-[#E4E4F0]">
-          <h2 className="pl-3 eb-garamond font-bold text-[32px]">
+          <h2 className="w-1/2 pl-3 eb-garamond font-bold text-[56px]">
             Chapter 1: The Crisis of Capitalism in Education
           </h2>
         </div>
         <div
-          className="max-w-[797px] mt-2.5 border border-black py-6 px-4 bg-white relative z-10"
+          className="max-w-[797px] mt-2.5 border border-black py-6 px-4 backdrop-blur-xl bg-white/30 relative z-10"
         >
           <p className="roboto font-medium">
             Education, ideally a vehicle for social mobility and personal
@@ -82,11 +82,11 @@ const Chapter1 = () => {
             tool for personal and communal enrichment.
           </p>
         </div>
-        <div className="absolute top-40 right-0">
+        <div className="absolute top-64 right-0">
           <img src="/images/circle-image.png" alt="circle" className="w-full h-auto" />
         </div>
         <div className="absolute bottom-0 left-0">
-          <img src="/images/bg-text.png" alt="bg-text" />
+          <img src="/images/bg-l-text.png" alt="bg-text" />
         </div>
       </div>
     </>

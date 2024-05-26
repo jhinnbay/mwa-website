@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import NavDropDown from "./NavDropDown";
 
 const Navbar = () => {
+  const [connect, setConnect] = useState(false);
   return (
     <>
       <nav className="h-[100px] px-5 py-6 flex items-center justify-between">
         <div className="flex items-center gap-10">
-          <div className="flex items-center gap-3">
+          <Link to='/' className="flex items-center gap-3">
             <img src="/images/logo2.svg" alt="logo" width={50} height={50} />
             <h2 className="text-base font-bold">Mental Wealth Academy</h2>
-          </div>
+          </Link>
           <div className="w-[375px] bg-white px-3 py-2 rounded-lg flex items-center gap-2">
             <img
               src="/images/search-icon.svg"
@@ -37,22 +38,25 @@ const Navbar = () => {
               <Link to="#">Community</Link>
             </li>
             <li>
-              {/* <button
-                className="flex items-center gap-2.5 py-4 px-5 border border-black rounded-lg"
-                style={{
-                  boxShadow:
-                    "0px 2px 0px 0px #ACACAC80 inset, 0px -4px 0px 0px #15151540 inset",
-                }}
-              >
-                Sync Account
-                <img
-                  src="/images/world-icon.svg"
-                  alt="www"
-                  width={16}
-                  height={16}
-                />
-              </button> */}
-              <NavDropDown />
+              {!connect && (
+                <button
+                  className="flex items-center gap-2.5 py-4 px-5 border border-black rounded-lg"
+                  style={{
+                    boxShadow:
+                      "0px 2px 0px 0px #ACACAC80 inset, 0px -4px 0px 0px #15151540 inset",
+                  }}
+                  onClick={() => setConnect(true)}
+                >
+                  Sync Account
+                  <img
+                    src="/images/world-icon.svg"
+                    alt="www"
+                    width={16}
+                    height={16}
+                  />
+                </button>
+              )}
+              {connect && <NavDropDown />}
             </li>
           </ul>
         </div>

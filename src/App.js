@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Home/Home";
 import Whitepaper from "./Whitepaper/Whitepaper";
 import AppComponent from "./CommonComponents/AppComponent";
+import Library from "./Library/Library";
 // import OldHome from "./Old_Home/Old_Home";
 
 export default function App() {
@@ -31,6 +32,14 @@ export default function App() {
             element={
               <AppComponent>
                 <Whitepaper />
+              </AppComponent>
+            }
+          />
+          <Route
+            path="/library"
+            element={
+              <AppComponent>
+                <Library />
               </AppComponent>
             }
           />

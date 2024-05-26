@@ -1,12 +1,13 @@
 import React from "react";
 import { Union } from "./HomeSvg";
+import { Link } from "react-router-dom";
 
 const TableContent = () => {
   return (
     <>
       <div className="mx-5 sm:mx-10 lg:mx-20 mt-14 pb-80 relative">
         <div className="flex justify-center items-center relative z-10">
-          <button
+          <Link to="library"
             className="max-w-[618px] w-full flex justify-center items-center gap-2.5 py-4 px-9 rounded-2xl text-white"
             style={{
               background:
@@ -19,7 +20,7 @@ const TableContent = () => {
             }}
           >
             JOIN THE ACADEMY {Union}
-          </button>
+          </Link>
         </div>
         <div className="text-center relative z-10">
           <h3 className="eb-garamond my-10 text-[32px] font-bold leading-relaxed">

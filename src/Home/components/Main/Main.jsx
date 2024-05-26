@@ -11,7 +11,7 @@ export default function Main() {
         <div className="layoutMain__head">
           <div className="layoutMain__logo">
             <img
-              src={process.env.PUBLIC_URL + "/images/logo.svg"}
+              src={process.env.PUBLIC_URL + "/images/logo.png"}
               alt="avatar"
             />
           </div>
@@ -56,7 +56,7 @@ export default function Main() {
   /* <div className="introMain__bg">
 INTERPLANETARY FILESTORAGE BLOCKCHAIN 0x031231132 INTERPLANETARY
 FILESTORAGE BLOCKCHAIN 0x031231132
-</div> */
+</div>
 }
 {
   /* <div className="introMain__image">

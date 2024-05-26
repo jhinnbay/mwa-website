@@ -530,7 +530,7 @@ h6.sm {
       -ms-grid-row-align: stretch;
       align-self: stretch;
   padding: 30px 32px 20px 32px;
-  background: #4c4c8d;
+  background: #3F3F95;
   border-bottom: 1px solid #e4e4f0;
 }
 .layoutMain__text {
@@ -543,7 +543,7 @@ h6.sm {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
-  background: #4c4c8d;
+  background: #3F3F95;
   padding: 24px;
   position: relative;
 }
@@ -633,7 +633,7 @@ h6.sm {
   text-transform: uppercase;
   border-radius: 8px;
   border: 1px solid #71a9fd;
-  background: rgba(65, 141, 230, 0.5);
+  background: #B0A170;
   -webkit-backdrop-filter: blur(7px);
           backdrop-filter: blur(7px);
 }
@@ -819,7 +819,7 @@ h6.sm {
 }
 .introMain__slider {
   border: 1px solid #1a213d;
-  background: #2BD178;
+  background: #29BFFF;
 }
 .introMain__slider .slick-track {
   display: -webkit-box !important;
@@ -935,15 +935,15 @@ h6.sm {
 }
 .introTab__head {
   width: 100%;
-  max-width: 515px;
+  /* max-width: 515px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 .introTab__button {
   width: 33.3%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe)) !important;
-  background: linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%) !important;
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe)) !important;
+  background: linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%) !important; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -970,13 +970,13 @@ h6.sm {
 }
 .introTab__body {
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe)) !important;
-  background: linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe));
+  background: linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%);
   border-radius: 0 0 16px 16px;
   border: 1px solid #0d0d19;
 }
-.introTab__body.dark {
-  background-color: #1A213D;
+.introTab__button.dark {
+  background-color: #46BF7E;
 }
 .introTab__body.dark .introTab__body-title {
   border-color: #d7d7e6;
@@ -984,11 +984,11 @@ h6.sm {
 .introTab__body.dark .introTab__body-title h6 {
   color: #d7d7e6;
 }
-.introTab__body.blue {
-  background-color: #71a9fd;
+.introTab__button.blue {
+  background-color: #29BFFF;
 }
-.introTab__body.red {
-  background-color: #cd4747;
+.introTab__button.red {
+  background-color: #FF596D !important;
 }
 .introTab__body-title {
   padding: 16px 20px;

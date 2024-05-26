@@ -16,11 +16,9 @@ export default function Tab() {
       <div className="introTab__head">
         <div
           onClick={() => setTab("dark")}
-          className={
-            "introTab__button dark " + (tab === "dark" ? "active" : "")
-          }
+          className={"introTab__button dark " + (tab === "dark" ? "active" : "")}
         >
-          <span>Our Token</span> {lightBulb}
+          <span>Our Library</span> {searchFill}
         </div>
         <div
           onClick={() => setTab("blue")}
@@ -28,13 +26,15 @@ export default function Tab() {
             "introTab__button blue " + (tab === "blue" ? "active" : "")
           }
         >
-          <span>Our Plan</span> {globeIcon}
+          <span>Our Token</span> {lightBulb}
         </div>
         <div
           onClick={() => setTab("red")}
-          className={"introTab__button red " + (tab === "red" ? "active" : "")}
+          className={
+            "introTab__button red " + (tab === "red" ? "active" : "")
+          }
         >
-          <span>Our Library</span> {searchFill}
+          <span>Academia</span> {globeIcon}
         </div>
       </div>
       {tab === "dark" && (

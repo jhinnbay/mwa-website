@@ -25,9 +25,6 @@ const marqueeList = [
 export default function Marquee() {
   const settings = {
     dots: false,
-    dots: false,
-    infinite: false,
-    speed: 300,
     cssEase: "linear",
     slidesToShow: 1,
     variableWidth: true,

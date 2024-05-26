@@ -1,14 +1,14 @@
 import React from "react";
-import Main from "./components/Main/Main";
-import Side from "./components/Side/Side";
+import TableContent from "./Components/TableContent";
+import HeroSection from "./Components/HeroSection";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-      <div className="layout">
-        <Main />
-        <Side />
-      </div>
+      <HeroSection />
+      <TableContent />
     </>
   );
-}
+};
+
+export default Home;

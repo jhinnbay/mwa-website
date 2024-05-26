@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NavDropDown from "./NavDropDown";
 
 const Navbar = () => {
   return (
@@ -36,7 +37,7 @@ const Navbar = () => {
               <Link to="#">Community</Link>
             </li>
             <li>
-              <button
+              {/* <button
                 className="flex items-center gap-2.5 py-4 px-5 border border-black rounded-lg"
                 style={{
                   boxShadow:
@@ -50,7 +51,8 @@ const Navbar = () => {
                   width={16}
                   height={16}
                 />
-              </button>
+              </button> */}
+              <NavDropDown />
             </li>
           </ul>
         </div>

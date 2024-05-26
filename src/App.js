@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Home/Home";
 import Whitepaper from "./Whitepaper/Whitepaper";
 import AppComponent from "./CommonComponents/AppComponent";
-import OldHome from "./Old_Home/Old_Home";
+// import OldHome from "./Old_Home/Old_Home";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
             path="/old-home"
             element={
               <AppComponent>
-                <OldHome />
+                {/* <OldHome /> */}
               </AppComponent>
             }
           />

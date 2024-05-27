@@ -16,7 +16,7 @@ const LibraryCards = () => {
         <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
           Non-Fiction
         </h2>
-        <ul className="mt-10 flex justify-center items-center gap-10">
+        <ul className="mt-10 flex justify-center flex-wrap items-center gap-10">
           {NonFiction.map((item, index) => (
             <li key={index} className="min-w-[300px]">
               <div
@@ -91,7 +91,7 @@ const LibraryCards = () => {
         <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
           E-Courses
         </h2>
-        <ul className="mt-10 flex justify-center items-center gap-10">
+        <ul className="mt-10 flex justify-center flex-wrap items-center gap-10">
           {eCourses.map((item, index) => (
             <li key={index} className="min-w-[300px]">
               <div
@@ -165,7 +165,7 @@ const LibraryCards = () => {
         <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
         Resources
         </h2>
-        <ul className="mt-10 flex justify-center items-center gap-10">
+        <ul className="mt-10 flex justify-center flex-wrap items-center gap-10">
           {resources.map((item, index) => (
             <li key={index} className="min-w-[300px]">
               <div
@@ -239,7 +239,7 @@ const LibraryCards = () => {
         <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
         Scientific Articles 
         </h2>
-        <ul className="mt-10 flex justify-center items-center gap-10">
+        <ul className="mt-10 flex justify-center flex-wrap items-center gap-10">
           {resources.map((item, index) => (
             <li key={index} className="min-w-[300px]">
               <div

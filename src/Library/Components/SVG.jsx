@@ -393,3 +393,50 @@ export const cardDownloadIcon = (
     </defs>
   </svg>
 );
+
+export const connectIcon = (
+  <svg
+    width="17"
+    height="17"
+    viewBox="0 0 17 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#clip0_1817_29064)">
+      <path
+        d="M15.1667 8.5H11.8334"
+        stroke="#F4F5FE"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M1.83337 6.5H5.16671"
+        stroke="#F4F5FE"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M1.83337 10.5H5.16671"
+        stroke="#F4F5FE"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M6.49996 3.83337C10.5 3.83337 11.8333 6.16671 11.8333 8.50004C11.8333 10.8334 10.5 13.1667 6.49996 13.1667H5.16663V3.83337H6.49996Z"
+        stroke="#F4F5FE"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_1817_29064">
+        <rect
+          width="16"
+          height="16"
+          fill="white"
+          transform="translate(0.5 0.5)"
+        />
+      </clipPath>
+    </defs>
+  </svg>
+);

@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import TabBody from "./TabBody";
 import { book, sparkles, world } from "./SVG";
 import LibraryCards from "./LibraryCards";
+import EventCards from "./EventCards";
+import Table from "../../Old_Home/components/Side/Table";
 
 const NavLinks = () => {
   const [tab, setTab] = useState("library");
@@ -41,45 +43,45 @@ const NavLinks = () => {
         </div>
         {tab === "library" && (
           <div
-          className="rounded-b-2xl border border-[#0d0d19]"
-          style={{
-            background:
-              "-webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe))",
-            background: "linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%)",
-          }}
-        >
-          <TabBody>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.4 }}
-              exit={{ opacity: 0 }}
-            >
-              <LibraryCards />
-            </motion.div>
-          </TabBody>
-        </div>
+            className="rounded-b-2xl border border-[#0d0d19]"
+            style={{
+              background:
+                "-webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe))",
+              background: "linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%)",
+            }}
+          >
+            <TabBody>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.4 }}
+                exit={{ opacity: 0 }}
+              >
+                <LibraryCards />
+              </motion.div>
+            </TabBody>
+          </div>
         )}
         {tab === "event" && (
           <div
-          className="rounded-b-2xl border border-[#0d0d19]"
-          style={{
-            background:
-              "-webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe))",
-            background: "linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%)",
-          }}
-        >
-          <TabBody>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.4 }}
-              exit={{ opacity: 0 }}
-            >
-              Tab2
-            </motion.div>
-          </TabBody>
-        </div>
+            className="rounded-b-2xl border border-[#0d0d19]"
+            style={{
+              background:
+                "-webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe))",
+              background: "linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%)",
+            }}
+          >
+            <TabBody>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.4 }}
+                exit={{ opacity: 0 }}
+              >
+                <EventCards />
+              </motion.div>
+            </TabBody>
+          </div>
         )}
         {tab === "dao" && (
           <div
@@ -97,7 +99,7 @@ const NavLinks = () => {
                 transition={{ duration: 0.4 }}
                 exit={{ opacity: 0 }}
               >
-                Tab3
+                <div className="mt-40">{Table()}</div>
               </motion.div>
             </TabBody>
           </div>

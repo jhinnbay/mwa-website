@@ -8,7 +8,7 @@ const TableContent = () => {
       <div className="mx-5 sm:mx-10 lg:mx-20 mt-14 pb-80 relative">
         <div className="flex justify-center items-center relative z-10">
           <Link to="library"
-            className="max-w-[618px] w-full flex justify-center items-center gap-2.5 py-4 px-9 rounded-2xl text-white"
+            className="max-w-[618px] w-full flex justify-center items-center gap-2.5 py-4 px-9 rounded-2xl text-white text-xs"
             style={{
               background:
                 "linear-gradient(90.83deg, #44DFE9 0.21%, #444AE9 70.21%)",

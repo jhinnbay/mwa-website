@@ -61,7 +61,7 @@ body {
   color: #000;
   line-height: 32px;
   font-weight: 400;
-  background: #e4e4f0;
+  background: #E4E4F0;
 }
 
 a {
@@ -1084,7 +1084,7 @@ h6.sm {
   color: #000;
 }
 .introFaq__item-body {
-  background-color: #e4e4f0;
+  background-color: #E4E4F0;
   padding: 0 24px;
   max-height: 0;
   opacity: 0;

@@ -4,7 +4,7 @@ import SideSection from "./SideSection";
 const TabBody = ({ children }) => {
   return (
     <>
-      <div className="flex items-start h-[110vh]">
+      <div className="flex items-start h-full">
         <div className="w-full">{children}</div>
         <SideSection />
       </div>

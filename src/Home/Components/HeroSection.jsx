@@ -5,7 +5,7 @@ const HeroSection = () => {
     <>
       <div className="mt-5 text-center">
         <h1
-          className="text-[108px] font-bold leading-relaxed eb-garamond"
+          className="text-[108px] font-black leading-relaxed eb-garamond"
           style={{
             color: "linear-gradient(180deg, #222225 0%, #15151B 100%)",
           }}

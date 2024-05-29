@@ -4,7 +4,7 @@ import { dots, download, filter, search, searchIcon } from "./SVG";
 const SideSection = () => {
   return (
     <>
-      <div className="max-w-[427px] h-full overflow-y-auto overflow-x-hidden w-full py-6 px-10 flex flex-col justify-center items-center border-l border-black">
+      <div className="max-w-[427px] h-auto w-full py-6 px-10 flex flex-col justify-center items-center border-l border-black">
         <img
           src="/images/logo2.svg"
           alt="logo"

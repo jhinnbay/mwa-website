@@ -440,3 +440,20 @@ export const connectIcon = (
     </defs>
   </svg>
 );
+
+export const backButton = (
+  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="50" rx="6" transform="matrix(-1 0 0 1 50 0)" fill="url(#paint0_linear_1887_4151)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M29.4428 38.203C30.3723 37.2736 30.3723 35.7666 29.4428 34.8372L21.6057 27.0001L29.4428 19.163C30.3723 18.2336 30.3723 16.7266 29.4428 15.7972C28.5134 14.8677 27.0064 14.8677 26.077 15.7972L16.557 25.3172C15.6275 26.2466 15.6275 27.7536 16.557 28.683L26.077 38.203C27.0064 39.1325 28.5134 39.1325 29.4428 38.203Z" fill="url(#paint1_linear_1887_4151)"/>
+<defs>
+<linearGradient id="paint0_linear_1887_4151" x1="25" y1="0" x2="25" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#222225"/>
+<stop offset="1" stop-color="#15151B"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1887_4151" x1="22.9999" y1="15.1001" x2="22.9999" y2="38.9001" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F5F5FF"/>
+<stop offset="1" stop-color="#E1E1FE"/>
+</linearGradient>
+</defs>
+</svg>
+)

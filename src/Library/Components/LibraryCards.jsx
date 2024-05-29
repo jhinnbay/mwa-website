@@ -1,16 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   audioIcon,
+  backButton,
   cardDownloadIcon,
   helpIcon,
   pagesIcon,
   subjectIcon,
 } from "./SVG";
 import { NonFiction, eCourses, resources } from "./constraint";
+import DetailPage from "./DetailPage";
 
 const LibraryCards = () => {
+  const [detailPageOpen, setDetailPageOpen] = useState(false)
+
+  const handleDetailPage = () => {
+    setDetailPageOpen(!detailPageOpen);
+  }
   return (
-    <div className="p-4 h-[110vh] overflow-x-hidden overflow-y-auto">
+    <>
+    <div className={`p-4 h-[910px] relative overflow-y-auto overflow-x-hidden}`}>
       {/* NON-Fiction */}
       <div>
         <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
@@ -75,7 +83,7 @@ const LibraryCards = () => {
                 </ul>
               </div>
               <div>
-                <button className="w-full bg-[#46BF7E] flex justify-center items-center gap-2.5 p-2.5 mt-3 rounded-md border border-black">
+                <button onClick={handleDetailPage} className="w-full bg-[#46BF7E] flex justify-center items-center gap-2.5 p-2.5 mt-3 rounded-md border border-black">
                   {cardDownloadIcon}Download
                 </button>
                 <button className="w-full bg-white flex justify-center items-center gap-2.5 p-2.5 mt-3 rounded-md border border-black">
@@ -309,6 +317,8 @@ const LibraryCards = () => {
         </ul>
       </div>
     </div>
+          <DetailPage detailPageOpen={detailPageOpen} setDetailPageOpen={setDetailPageOpen} />
+    </>
   );
 };
 

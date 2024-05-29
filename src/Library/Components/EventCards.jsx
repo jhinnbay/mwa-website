@@ -8,15 +8,12 @@ import {
 } from "./SVG";
 import {
   InPerson,
-  NonFiction,
-  eCourses,
-  resources,
   virtual,
 } from "./constraint";
 
 const EventCards = () => {
   return (
-    <div className="p-4 h-[110vh] overflow-x-hidden overflow-y-auto">
+    <div className="p-4 h-[910px] overflow-x-hidden overflow-y-auto">
       {/* virtual */}
       <div>
         <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
@@ -166,6 +163,7 @@ const EventCards = () => {
         </ul>
       </div>
     </div>
+
   );
 };
 

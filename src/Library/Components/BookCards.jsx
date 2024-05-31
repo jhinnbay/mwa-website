@@ -22,7 +22,7 @@ const BookCards = () => {
       >
         {/* NON-Fiction */}
         <div>
-          <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
+          <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-start">
             Non-Fiction
           </h2>
           <ul className="mt-10 flex justify-center flex-wrap items-center gap-10">
@@ -99,7 +99,7 @@ const BookCards = () => {
         </div>
         {/* E-Courses */}
         <div>
-          <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
+          <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-start">
             E-Courses
           </h2>
           <ul className="mt-10 flex justify-center flex-wrap items-center gap-10">
@@ -176,7 +176,7 @@ const BookCards = () => {
         </div>
         {/* Resources */}
         <div>
-          <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
+          <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-start">
             Resources
           </h2>
           <ul className="mt-10 flex justify-center flex-wrap items-center gap-10">
@@ -253,7 +253,7 @@ const BookCards = () => {
         </div>
         {/* Articles */}
         <div>
-          <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-end">
+          <h2 className="mt-6 text-5xl font-semibold text-[#8E8E93] text-start">
             Scientific Articles
           </h2>
           <ul className="mt-10 flex justify-center flex-wrap items-center gap-10">

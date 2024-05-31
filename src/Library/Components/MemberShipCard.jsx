@@ -17,7 +17,7 @@ const MemberShipCard = ({ isOpen, setIsOpen }) => {
         setIsOpen(false);
       }, 3000);
     }
-  }, [Loading]);
+  }, [Loading, setIsOpen]);
 
   return (
     <>
@@ -44,7 +44,7 @@ const MemberShipCard = ({ isOpen, setIsOpen }) => {
           {!Loading ? (
             <button
               onClick={handleLoading}
-              className="min-w-[340px] rounded-md p-2.5 text-white mt-24"
+              className="min-w-[340px] rounded-md h-10 text-white mt-24"
               style={{
                 background: "linear-gradient(180deg, #222225 0%, #15151B 100%)",
               }}
@@ -52,7 +52,7 @@ const MemberShipCard = ({ isOpen, setIsOpen }) => {
               <p>Purchase Library Card</p>
             </button>
           ) : (
-            <ClipLoader color="#36d7b7" className="mt-24" />
+            <ClipLoader color="#36d7b7" className="mt-24 " />
           )}
           <span className="mt-14 h-1 w-32 bg-[#454545] rounded-2xl" />
         </div>

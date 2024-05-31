@@ -5,7 +5,7 @@ import { starIcon } from "./SVG";
 const MemberShipCard = ({ isOpen, setIsOpen }) => {
   return (
     <>
-      <CustomModal isOpen={isOpen} setIsOpen={setIsOpen}>
+      <CustomModal isOpen={isOpen} setIsOpen={setIsOpen} ModalWidth={"w-[1390px]"} >
         <div className="flex flex-col items-center w-full text-center pt-10 px-10 pb-2">
           <h2 className="text-[42px] font-medium text-[#454545]">
             NFT MEMBERSHIP CARD

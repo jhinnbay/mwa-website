@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import { dots, download, filter, search, searchIcon } from "./SVG";
 import MemberShipCard from "./MemberShipCard";
+import EventModal from "./EventModal";
 
 const SideSection = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isFileOpen, setIsFileOpen] = useState(false);
 
   const handleModalCLose = () => {
     setIsOpen(false);
+  };
+  const handleFileModalCLose = () => {
+    setIsFileOpen(false);
   };
 
   return (
@@ -43,6 +48,7 @@ const SideSection = () => {
             <div className="h-px w-full bg-black" />
           </div>{" "}
           <button
+          onClick={() => setIsFileOpen(true)}
             className="w-full flex justify-center items-center gap-2.5 p-2.5 mt-3 rounded-md border border-black"
             style={{
               background:
@@ -67,6 +73,7 @@ const SideSection = () => {
         </div>
       </div>
       {isOpen && <MemberShipCard isOpen={isOpen} setIsOpen={handleModalCLose} />}
+      {isFileOpen && <EventModal isOpen={isFileOpen} setIsOpen={handleFileModalCLose} />}
     </>
   );
 };

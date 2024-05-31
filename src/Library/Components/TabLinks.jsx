@@ -86,7 +86,6 @@ const NavLinks = () => {
             style={{
               background:
                 "-webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe))",
-              background: "linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%)",
             }}
           >
             <TabBody>

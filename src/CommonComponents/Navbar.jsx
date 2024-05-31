@@ -29,10 +29,10 @@ const Navbar = () => {
         <div>
           <ul className="flex items-center gap-4 text-sm font-medium">
             <li className="py-2.5 px-4">
-              <Link to="#">E-Books</Link>
+              <Link to="/library">Library</Link>
             </li>
             <li className="py-2.5 px-4">
-              <Link to="#">Host an Event</Link>
+              <Link to="#">Marketplace</Link>
             </li>
             <li className="py-2.5 px-4">
               <Link to="#">Community</Link>

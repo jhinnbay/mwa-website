@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { backButton, cardDownloadIcon } from "./SVG";
+import { ClipLoader } from "react-spinners";
 
 const DetailPage = ({ detailPageOpen, setDetailPageOpen }) => {
+  const [Loading, setLoading] = useState(false);
+
+  const handleLoading = () => {
+    setLoading(true);
+  };
+
+  useEffect(() => {
+    if (Loading) {
+      setTimeout(() => {
+        setLoading(false);
+        setDetailPageOpen(false);
+      }, 3000);
+    }
+  }, [Loading, setDetailPageOpen]);
+
   return (
     <>
       <div
         className={`h-[910px] w-full p-4 bg-[#E4E4F0] absolute top-0
-     left-0 rounded-bl-2xl overflow-y-auto overflow-x-hidden ${detailPageOpen == true ? "block" : "hidden"}`}
+     left-0 rounded-bl-2xl overflow-y-auto overflow-x-hidden ${
+       detailPageOpen === true ? "block" : "hidden"
+     }`}
       >
         <div className="flex items-center justify-between">
           <button type="button" onClick={() => setDetailPageOpen(false)}>
@@ -34,11 +52,20 @@ const DetailPage = ({ detailPageOpen, setDetailPageOpen }) => {
           </div>
         </div>
         <div>
-          <button className="w-full bg-[#96C6FF] flex justify-center items-center gap-2.5 p-2.5 mt-3 rounded-md border border-black">
-            {cardDownloadIcon}Download
+          <button
+            onClick={handleLoading}
+            className="w-full bg-[#96C6FF] flex justify-center items-center gap-2.5 p-2.5 mt-3 rounded-md border border-black"
+          >
+            {!Loading ? (
+              <>
+                {cardDownloadIcon} <span>Download</span>
+              </>
+            ) : (
+              <ClipLoader color="#000" />
+            )}
           </button>
           <button className="w-full bg-white flex justify-center items-center gap-2.5 p-2.5 mt-3 rounded-md border border-black">
-            CID: <span>CID: 0x23345</span>
+            <span>CID: 0x23345</span>
           </button>
         </div>
       </div>

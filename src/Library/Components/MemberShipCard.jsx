@@ -4,16 +4,16 @@ import { starIcon } from "./SVG";
 import { ClipLoader } from "react-spinners";
 
 const MemberShipCard = ({ isOpen, setIsOpen }) => {
-  const [Loading, seLoading] = useState(false);
+  const [Loading, setLoading] = useState(false);
 
   const handleLoading = () => {
-    seLoading(true);
+    setLoading(true);
   };
 
   useEffect(() => {
     if (Loading) {
       setTimeout(() => {
-        seLoading(false);
+        setLoading(false);
         setIsOpen(false);
       }, 3000);
     }

@@ -22,7 +22,7 @@ export default function Chat() {
         </div>
         <div className="introChat__content">
           <h5 className="sm">Hey buddy! TIME TO CONNECT...</h5>
-          <a href="#" className="button secondary">
+          <a href="" className="button secondary">
             JOIN THE ACADEMY
           </a>
         </div>

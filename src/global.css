@@ -44,3 +44,20 @@
 input[type="search"]::-webkit-search-cancel-button {
   display: none;
 }
+
+.bg-earth{
+  background-image: url('../public/images/Earth.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-smoke{
+  background-image: url('../public/images/Smoke.gif');
+  background-size: cover;
+}
+
+.bg-forest{
+  background-image: url('../public/images/Forest.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

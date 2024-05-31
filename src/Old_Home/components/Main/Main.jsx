@@ -1,7 +1,6 @@
 import React from "react";
 import Marquee from "./Marquee";
 import Form from "./Form";
-import { Link } from "react-router-dom";
 import { textt } from "../../../Base/Svg";
 
 export default function Main() {
@@ -21,7 +20,7 @@ export default function Main() {
             {textt}
             <img
               src={process.env.PUBLIC_URL + "/images/image-mob.png"}
-              alt="image"
+              alt="mob"
             />
             <button type="button" className="button primary">
               You Ready To Read?
@@ -37,7 +36,7 @@ export default function Main() {
         <Marquee />
         <Form />
         <div className="layoutMain__uniq">
-          <img src={process.env.PUBLIC_URL + "/images/image.png"} alt="image" />
+          <img src={process.env.PUBLIC_URL + "/images/image.png"} alt="..." />
           <button type="button" className="button primary">
             You Ready To Read?
             <span>
@@ -52,28 +51,28 @@ export default function Main() {
     </div>
   );
 }
-{
-  /* <div className="introMain__bg">
-INTERPLANETARY FILESTORAGE BLOCKCHAIN 0x031231132 INTERPLANETARY
-FILESTORAGE BLOCKCHAIN 0x031231132
-</div>
-}
-{
-  /* <div className="introMain__image">
-<img
-  src={process.env.PUBLIC_URL + "/images/image.png"}
-  alt="image"
-/>
-<img
-  className="mob"
-  src={process.env.PUBLIC_URL + "/images/image-mob.png"}
-  alt="image"
-/>
-<Link href="#" className="button primary">
-  <span>
-    <img src="/images/button-arrow.svg" alt="" />
-  </span>
-  You Ready To Read?
-</Link>
-</div> */
-}
+// {
+//   /* <div className="introMain__bg">
+// INTERPLANETARY FILESTORAGE BLOCKCHAIN 0x031231132 INTERPLANETARY
+// FILESTORAGE BLOCKCHAIN 0x031231132
+// </div>
+// }
+// {
+//   /* <div className="introMain__image">
+// <img
+//   src={process.env.PUBLIC_URL + "/images/image.png"}
+//   alt="image"
+// />
+// <img
+//   className="mob"
+//   src={process.env.PUBLIC_URL + "/images/image-mob.png"}
+//   alt="image"
+// />
+// <Link href="#" className="button primary">
+//   <span>
+//     <img src="/images/button-arrow.svg" alt="" />
+//   </span>
+//   You Ready To Read?
+// </Link>
+// </div> */
+// }

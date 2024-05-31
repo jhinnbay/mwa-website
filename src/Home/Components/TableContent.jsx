@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const TableContent = () => {
   return (
     <>
-      <div className="mx-5 sm:mx-10 lg:mx-20 mt-14 pb-80 relative">
+      <div className="mx-5 sm:mx-10 lg:mx-20 mt-14 pb-10 relative">
         <div className="flex justify-center items-center relative z-10">
           <Link to="library"
             className="max-w-[618px] w-full flex justify-center items-center gap-2.5 py-4 px-9 rounded-2xl text-white text-xs"
@@ -45,12 +45,7 @@ const TableContent = () => {
           <div className="hidden lg:block absolute top-28 left-28 z-0">
             <img src="/images/home-bg1.png" alt="bg" />
           </div>
-          <div className="hidden md:block absolute left-20 bottom-28 z-0">
-            <img src="/images/home-bg3.png" alt="bg" />
-          </div>
-          <div className="absolute right-0 bottom-0 z-0">
-            <img src="/images/home-bg2.png" alt="bg" />
-          </div>
+
       </div>
     </>
   );

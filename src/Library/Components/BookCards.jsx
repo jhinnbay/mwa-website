@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {
   audioIcon,
-  backButton,
   cardDownloadIcon,
   helpIcon,
   pagesIcon,
@@ -10,7 +9,7 @@ import {
 import { NonFiction, eCourses, resources } from "./constraint";
 import DetailPage from "./DetailPage";
 
-const LibraryCards = () => {
+const BookCards = () => {
   const [detailPageOpen, setDetailPageOpen] = useState(false);
 
   const handleDetailPage = () => {
@@ -338,4 +337,4 @@ const LibraryCards = () => {
   );
 };
 
-export default LibraryCards;
+export default BookCards;

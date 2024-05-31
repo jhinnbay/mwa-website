@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { dots, download, filter, search, searchIcon } from "./SVG";
+import LibraryCard from "./MemberShipCard";
 
 const SideSection = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleModalCLose = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <div className="max-w-[427px] h-auto w-full py-6 px-10 flex flex-col justify-center items-center border-l border-black">
@@ -45,6 +52,7 @@ const SideSection = () => {
             {download}Upload Book
           </button>
           <button
+            onClick={() => setIsOpen(true)}
             className="w-full flex justify-center items-center gap-2.5 p-2.5 mt-3 rounded-md text-white border border-black"
             style={{
               background: "linear-gradient(180deg, #222225 0%, #15151B 100%)",
@@ -54,10 +62,11 @@ const SideSection = () => {
           </button>
         </div>
         <div className="mt-5 flex flex-col justify-center items-center">
-            <img src="/images/tooltip.png" alt="tooltip" />
-            <img src="/images/image.png" alt="robot" />
+          <img src="/images/tooltip.png" alt="tooltip" />
+          <img src="/images/image.png" alt="robot" />
         </div>
       </div>
+      {isOpen && <LibraryCard isOpen={isOpen} setIsOpen={handleModalCLose} />}
     </>
   );
 };

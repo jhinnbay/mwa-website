@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import TabBody from "./TabBody";
 import { book, sparkles, world } from "./SVG";
-import LibraryCards from "./LibraryCards";
+import BookCards from "./BookCards";
 import EventCards from "./EventCards";
 import Table from "../../Old_Home/components/Side/Table";
 
@@ -45,9 +45,7 @@ const NavLinks = () => {
           <div
             className="rounded-b-2xl border border-[#0d0d19]"
             style={{
-              background:
-                "-webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe))",
-              background: "linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%)",
+              background: "-webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe))",
             }}
           >
             <TabBody>
@@ -58,7 +56,7 @@ const NavLinks = () => {
                 exit={{ opacity: 0 }}
                 className="relative"
               >
-                <LibraryCards />
+                <BookCards />
               </motion.div>
             </TabBody>
           </div>
@@ -67,9 +65,7 @@ const NavLinks = () => {
           <div
             className="rounded-b-2xl border border-[#0d0d19]"
             style={{
-              background:
-                "-webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe))",
-              background: "linear-gradient(180deg, #f5f5ff 0%, #e1e1fe 100%)",
+              background: "-webkit-gradient(linear, left top, left bottom, from(#f5f5ff), to(#e1e1fe))",
             }}
           >
             <TabBody>

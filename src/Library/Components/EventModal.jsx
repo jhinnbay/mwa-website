@@ -15,17 +15,22 @@ const EventModal = ({ isOpen, setIsOpen }) => {
         setLoading(false);
         setIsSuccessModal(true);
         setTimeout(() => {
+          setIsOpen(false);
           setIsSuccessModal(false);
-          setIsOpen(false)
         }, 3000);
       }, 3000);
     }
-  }, [isFileUpload]);
-
+  }, [isFileUpload, setIsOpen]);
+  
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     setIsFileUpload(file);
   };
+  
+  const handleModalsClose = () => {
+    setIsOpen(false);
+    setIsSuccessModal(false);
+  }
 
   return (
     <>
@@ -85,7 +90,7 @@ const EventModal = ({ isOpen, setIsOpen }) => {
                 Update Successfully
               </h2>
               <button
-                onClick={() => setIsSuccessModal(false)}
+                onClick={handleModalsClose}
                 className="mt-10 max-w-[548px] w-full rounded-2xl roboto px-9 text-white roboto flex items-center justify-center"
                 style={{
                   background:

@@ -3,7 +3,8 @@ import React from "react";
 const HeroSection = () => {
   return (
     <>
-      <div className="mt-5 text-center">
+      <div className="mt-5 text-center flex flex-col justify-center items-center">
+        <img src="/images/mwa_logo.png" alt="mwa_logo" />
         <h1
           className="text-[108px] font-black leading-relaxed eb-garamond"
           style={{

@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import CustomModal from "../../CommonComponents/CustomModal";
 import { starIcon } from "./SVG";
+import { ClipLoader } from "react-spinners";
 
 const MemberShipCard = ({ isOpen, setIsOpen }) => {
+  const [Loading, seLoading] = useState(false);
+
+  const handleLoading = () => {
+    seLoading(true);
+  };
+
+  useEffect(() => {
+    if (Loading) {
+      setTimeout(() => {
+        seLoading(false);
+        setIsOpen(false);
+      }, 3000);
+    }
+  }, [Loading]);
+
   return (
     <>
-      <CustomModal isOpen={isOpen} setIsOpen={setIsOpen} ModalWidth={"w-[1390px]"} >
+      <CustomModal
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        ModalWidth={"w-[1390px]"}
+      >
         <div className="flex flex-col items-center w-full text-center pt-10 px-10 pb-2">
           <h2 className="text-[42px] font-medium text-[#454545]">
             NFT MEMBERSHIP CARD
@@ -21,14 +41,19 @@ const MemberShipCard = ({ isOpen, setIsOpen }) => {
             alt="LibraryCard"
             className="mt-4"
           />
-          <button
-            className="min-w-[340px] rounded-md p-2.5 text-white mt-24"
-            style={{
-              background: "linear-gradient(180deg, #222225 0%, #15151B 100%)",
-            }}
-          >
-            Purchase Library Card
-          </button>
+          {!Loading ? (
+            <button
+              onClick={handleLoading}
+              className="min-w-[340px] rounded-md p-2.5 text-white mt-24"
+              style={{
+                background: "linear-gradient(180deg, #222225 0%, #15151B 100%)",
+              }}
+            >
+              <p>Purchase Library Card</p>
+            </button>
+          ) : (
+            <ClipLoader color="#36d7b7" className="mt-24" />
+          )}
           <span className="mt-14 h-1 w-32 bg-[#454545] rounded-2xl" />
         </div>
       </CustomModal>

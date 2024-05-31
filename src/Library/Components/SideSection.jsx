@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { dots, download, filter, search, searchIcon } from "./SVG";
-import LibraryCard from "./MemberShipCard";
+import MemberShipCard from "./MemberShipCard";
 
 const SideSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,7 +66,7 @@ const SideSection = () => {
           <img src="/images/image.png" alt="robot" />
         </div>
       </div>
-      {isOpen && <LibraryCard isOpen={isOpen} setIsOpen={handleModalCLose} />}
+      {isOpen && <MemberShipCard isOpen={isOpen} setIsOpen={handleModalCLose} />}
     </>
   );
 };

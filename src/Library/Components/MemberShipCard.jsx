@@ -2,7 +2,7 @@ import React from "react";
 import CustomModal from "../../CommonComponents/CustomModal";
 import { starIcon } from "./SVG";
 
-const LibraryCard = ({ isOpen, setIsOpen }) => {
+const MemberShipCard = ({ isOpen, setIsOpen }) => {
   return (
     <>
       <CustomModal isOpen={isOpen} setIsOpen={setIsOpen}>
@@ -13,7 +13,7 @@ const LibraryCard = ({ isOpen, setIsOpen }) => {
           <div className="mt-4 w-fit border border-[#D3D3D3] bg-[#FFFFFF14] py-2 px-4 rounded-[20px] flex items-center gap-2">
             {starIcon} A Lifetime of Leaning & Experience
           </div>
-          <h3 className="mt-4 text-[32px] font-medium">
+          <h3 className="mt-4 text-[32px] font-medium text-[#454545]">
             Price: $20 (0.002 ETH)
           </h3>
           <img
@@ -36,4 +36,4 @@ const LibraryCard = ({ isOpen, setIsOpen }) => {
   );
 };
 
-export default LibraryCard;
+export default MemberShipCard;

@@ -8,7 +8,10 @@ const TabBody = ({ children }) => {
       <FourButtons />
       <div className="flex items-start h-full">
         <SideSection />
+        <div className="w-full">
+        <h2 className="text-5xl font-semibold">Library</h2>
         <div className="w-full">{children}</div>
+        </div>
       </div>
     </>
   );

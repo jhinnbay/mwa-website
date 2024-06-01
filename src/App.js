@@ -5,6 +5,7 @@ import Whitepaper from "./Whitepaper/Whitepaper";
 import AppComponent from "./CommonComponents/AppComponent";
 import Library from "./Library/Library";
 import OldHome from "./Old_Home/Old_Home";
+import Marketplace from "./MarketPlace/Marketplace";
 
 export default function App() {
   return (
@@ -40,6 +41,14 @@ export default function App() {
             element={
               <AppComponent>
                 <Library />
+              </AppComponent>
+            }
+          />
+          <Route
+            path="/marketplace"
+            element={
+              <AppComponent>
+                <Marketplace />
               </AppComponent>
             }
           />

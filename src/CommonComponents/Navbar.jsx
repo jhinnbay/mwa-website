@@ -32,7 +32,7 @@ const Navbar = () => {
               <Link to="/library">Library</Link>
             </li>
             <li className="py-2.5 px-4">
-              <Link to="#">Marketplace</Link>
+              <Link to="/marketplace">Marketplace</Link>
             </li>
             <li className="py-2.5 px-4">
               <Link to="#">Community</Link>

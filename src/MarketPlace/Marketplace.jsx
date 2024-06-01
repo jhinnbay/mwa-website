@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
+import HeroSection from "./Components/HeroSection";
+
 
 const Marketplace = () => {
+
+
   return (
     <>
-        <div>
-            
-        </div>
+      <HeroSection />
     </>
-  )
-}
+  );
+};
 
-export default Marketplace
+export default Marketplace;

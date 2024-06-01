@@ -6,8 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 .cinzel-decorative {
   font-family: "Cinzel Decorative", serif;
@@ -32,32 +32,49 @@
 }
 
 .roboto {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-  }
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
 
-  .ibm-plex-mono {
-    font-family: "IBM Plex Mono", monospace;
-    font-style: normal;
-  }
+.ibm-plex-mono {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+}
 
 input[type="search"]::-webkit-search-cancel-button {
   display: none;
 }
 
-.bg-earth{
-  background-image: url('../public/images/Earth.gif');
+.bg-earth {
+  background-image: url("../public/images/Earth.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-smoke{
-  background-image: url('../public/images/Smoke.gif');
+.bg-smoke {
+  background-image: url("../public/images/Smoke.gif");
   background-size: cover;
 }
 
-.bg-forest{
-  background-image: url('../public/images/Forest.gif');
+.bg-forest {
+  background-image: url("../public/images/Forest.gif");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg-DAOcard {
+  background-image: url("../public/images/Community-BG.png");
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 6px solid #ababf9;
+  border-color: linear-gradient(
+    90deg,
+    #ababf9 0%,
+    #baf9ab 33.33%,
+    #ababf9 69.79%,
+    #ff26dc 100%
+  );
+  box-shadow: 0px 6px 15px -2px #10182814;
+  box-shadow: 0px 6px 15px -2px #10182814;
 }

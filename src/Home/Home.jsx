@@ -3,6 +3,7 @@ import TableContent from "./Components/TableContent";
 import HeroSection from "./Components/HeroSection";
 import Cards from "./Components/Cards";
 import FourButtons from "../CommonComponents/FourButtons";
+import CommunitySection from "./Components/CommunitySection";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <TableContent />
       <Cards />
       <FourButtons />
+      <CommunitySection />
     </>
   );
 };

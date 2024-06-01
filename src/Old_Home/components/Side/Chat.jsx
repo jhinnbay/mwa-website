@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Chat() {
   return (
@@ -22,9 +23,9 @@ export default function Chat() {
         </div>
         <div className="introChat__content">
           <h5 className="sm">Hey buddy! TIME TO CONNECT...</h5>
-          <a href="" className="button secondary">
+          <Link to="#" className="button secondary">
             JOIN THE ACADEMY
-          </a>
+          </Link>
         </div>
       </div>
     </div>

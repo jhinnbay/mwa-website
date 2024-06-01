@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import TabBody from "./TabBody";
-import { book, sparkles, world } from "./SVG";
+// import { book, sparkles, world } from "./SVG";
 import BookCards from "./BookCards";
-import EventCards from "./EventCards";
-import Table from "../../Old_Home/components/Side/Table";
+// import EventCards from "./EventCards";
+// import Table from "../../Old_Home/components/Side/Table";
 
 const NavLinks = () => {
-  const [tab, setTab] = useState("library");
-  const libraryTabs =
-    "w-1/3 flex justify-center items-center border border-[#0d0d19] rounded-t-3xl p-4 text-xs font-semibold border-b-0 cursor-pointer";
+  // const [tab, setTab] = useState("library");
+  // const libraryTabs =
+  //   "w-1/3 flex justify-center items-center border border-[#0d0d19] rounded-t-3xl p-4 text-xs font-semibold border-b-0 cursor-pointer";
 
   return (
     <>

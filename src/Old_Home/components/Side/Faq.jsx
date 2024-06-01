@@ -99,8 +99,8 @@ export default function Faq() {
       <div className="introFaq__foot">
         <div className="introFaq__foot-links">
           <Link to="/whitepaper"> Whitepaper </Link>
-          <a href="#"> Discord </a>
-          <a href="#"> Contract </a>
+          <Link to="#"> Discord </Link>
+          <Link to="#"> Contract </Link>
         </div>
       </div>
     </div>

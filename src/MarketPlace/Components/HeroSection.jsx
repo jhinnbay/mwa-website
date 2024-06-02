@@ -12,9 +12,9 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="mt-5 border-t border-x border-black rounded-t-[64px]">
+      <div className="mt-5">
         <div className="w-32 h-1 bg-[#454545] mx-auto mt-7 rounded-xl" />
-        <div className="mx-20 flex justify-between items-center">
+        <div className="flex justify-between items-center">
           <div className="max-w-[650px]">
             <h2 className="eb-garamond text-[72px] font-bold">
               Writer’s Marketplace

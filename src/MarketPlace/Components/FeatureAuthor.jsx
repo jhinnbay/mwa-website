@@ -9,7 +9,8 @@ const FeatureAuthor = () => {
         <h2 className="eb-garamond text-[#646464] text-6xl">
           Featured Author’s
         </h2>
-        <div className="float-right max-w-[660px] w-full ml-20 mt-10 border-b border-x border-black rounded-2xl">
+        <div className="mb-10">
+        <div className="float-right max-w-[660px] w-full ml-20 border-b border-x border-black rounded-2xl">
           <div className="flex justify-between items-center bg-[#1B1B1B] p-6 rounded-t-2xl border-b border-[#323232]">
             <h2 className="roboto font-medium text-white text-2xl ">
               Onboarding Checklist
@@ -81,7 +82,7 @@ const FeatureAuthor = () => {
             </ul>
           </div>
         </div>
-        <ul className="mt-10 flex flex-wrap justify-between overflow-y-auto overflow-x-hidden">
+        <ul className="h-[840px] mt-10 flex flex-wrap justify-between overflow-y-auto overflow-x-hidden">
           {Authors.map((item) => {
             return (
               <li key={item.key} className="max-w-[230px] mb-10">
@@ -97,6 +98,7 @@ const FeatureAuthor = () => {
             );
           })}
         </ul>
+        </div>
       </div>
     </>
   );

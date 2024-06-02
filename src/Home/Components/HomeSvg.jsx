@@ -21,4 +21,105 @@ export const Union = (
   </svg>
 );
 
+export const BackArrow = (
+  <svg
+    width="36"
+    height="37"
+    viewBox="0 0 36 37"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M24 3.5V5H21V8H18V11H15V14H12V15.5H10.5V17H9V20H10.5V21.5H12V23H15V26H18V29H19.5H21V30.5V32H24V33.5H27V29H24V26H21V23H18V20H15V17H18V14H21V11H24V8H27V3.5H24Z"
+      fill="url(#paint0_linear_2140_1331)"
+    />
+    <defs>
+      <linearGradient
+        id="paint0_linear_2140_1331"
+        x1="18"
+        y1="3.5"
+        x2="18"
+        y2="33.5"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#F5F5FF" />
+        <stop offset="1" stop-color="#E1E1FE" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
 
+export const HintIcon = (
+  <svg
+    width="24"
+    height="25"
+    viewBox="0 0 24 25"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M21 4.5V5.5H22V19.5H21V20.5H20V21.5H19V22.5H5V21.5H4V20.5H3V19.5H2V5.5H3V4.5H4V3.5H5V2.5H19V3.5H20V4.5H21ZM19 17.5H20V7.5H19V6.5H18V5.5H17V4.5H7V5.5H6V6.5H5V7.5H4V17.5H5V18.5H6V19.5H7V20.5H17V19.5H18V18.5H19V17.5ZM13 6.5H11V8.5H13V6.5ZM13 10.5H11V18.5H13V10.5Z"
+      fill="url(#paint0_linear_2140_1336)"
+    />
+    <defs>
+      <linearGradient
+        id="paint0_linear_2140_1336"
+        x1="12"
+        y1="2.5"
+        x2="12"
+        y2="22.5"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#F5F5FF" />
+        <stop offset="1" stop-color="#E1E1FE" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+
+export const PinkToy = (
+  <svg
+    width="44"
+    height="36"
+    viewBox="0 0 44 36"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M10.3679 0.00514964C7.94032 -0.204275 7.67059 6.02611 7.83918 9.16749C3.97919 10.79 -1.56178 15.8491 2.78173 23.3036C6.78106 30.1674 13.3181 34.6475 16.9426 35.6073C18.7128 36.1309 19.7243 36.1309 26.0461 35.6073C32.3679 35.0838 31.8622 31.4188 38.9427 26.9686C46.0231 22.5183 42.7347 10.2264 36.161 9.16749C36.6668 5.76437 35.9082 3.40827 34.6438 1.05224C33.6323 -0.832586 32.1994 0.266894 31.6093 1.05224C31.4407 1.22676 30.0921 2.72764 26.0461 7.33498C23.8208 6.28786 19.5557 6.89868 17.7013 7.33498C16.2683 4.97896 12.7955 0.214574 10.3679 0.00514964Z"
+      fill="#DD3C84"
+    />
+    <ellipse cx="33.885" cy="19.1153" rx="10.1149" ry="10.4712" fill="black" />
+    <path
+      d="M24.023 18.0678C22.6069 16.8113 20.7356 17.5443 19.977 18.0678C19.3027 19.7258 18.2575 22.6752 19.4713 21.2092C20.9885 19.3768 21.7471 19.6385 22.2529 19.6385C22.6575 19.6385 23.7701 20.5111 24.2759 20.9474C24.7816 20.5111 25.4391 19.3244 24.023 18.0678Z"
+      fill="black"
+      stroke="black"
+    />
+    <ellipse cx="10.1149" cy="19.1153" rx="10.1149" ry="10.4712" fill="black" />
+    <ellipse
+      cx="10.3679"
+      cy="18.8535"
+      rx="7.83908"
+      ry="8.11521"
+      fill="#27BBFB"
+    />
+    <ellipse cx="10.8737" cy="18.8534" rx="3.7931" ry="5.4974" fill="black" />
+    <ellipse
+      cx="33.6323"
+      cy="18.8535"
+      rx="7.83908"
+      ry="8.11521"
+      fill="#27BBFB"
+    />
+    <ellipse cx="32.1149" cy="18.8534" rx="3.7931" ry="5.4974" fill="black" />
+    <ellipse
+      cx="21.7472"
+      cy="27.2252"
+      rx="1.51724"
+      ry="0.523561"
+      fill="#0C5A6E"
+    />
+  </svg>
+);

@@ -62,7 +62,7 @@ export default function App() {
  * import React, { useState } from "react";
 import { ethers } from "ethers";
 import { create } from "ipfs-http-client";
-import BookStorageABI from "./BookStorageABI.json";
+import bookStorageABI from "./BookStorageABI.json";
 import { Buffer } from "buffer";
 
 const pinataApiKey = process.env.PINATA_API_KEY;

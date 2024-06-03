@@ -1,3 +1,36 @@
+Inspiration
+
+Digital Libraries are vulnerable to shutdown.
+
+Z Library, Ron DeSantis, etc. Libraries only have limited copies of audiobooks and limited resources. There's no way to actually own books, and Amazon & other companies have taken over with unfair subscription models. There's no way to onboard the next 100,000 users in Web3 with strictly video games, NFTs, and consumer products. We created an individual ERP Platform curated to help onboard mass adoption by 74% by creating value in a with books and rich resources available online, in a decentralized manner
+
+Mental Wealth Academy is the academic knowledge layer of the project and utilizes a focus on connecting resources and a rich ecosystem while building a community of DAO consensus players to participate.
+
+Mental Wealth Academy is a full-scale full-circle ERP educational platform.
+
+What It Does & How We Built It
+
+Utilizes DAO Technology on Polygon Network.
+DAO technology keeps resources regulated and decentralized.
+Complex Smart Contract is used to store and update the Library's directory.
+IPFS is utilized + Piñata to ensure longevity in resources and documents with data permanence.
+Cross-Chain Interoperability Protocol (CCIP) for NFT book data.
+Chainlink functions for on-demand backstory and dungeon generation.
+Users connect while providing massive learning opportunities for all.
+Marketplace and ecosystem for books and authorship promotes reading & writing comprehension.
+Ecosystem values intellectuals and academics, ensuring Crypto + NFTs become digestible for college students.
+Challenges & Accomplishments
+
+Timezones were a huge issue to communication... it was actually very frustrating. Once we tackled the optimal timezone issues most collaboration went extremely smooth. Defeating the rough patches, after we set up a few designs and flow charts we were able to communicate with the partners we required to build our individual pieces, it was a rough finish but we did it. I'm proud of my team for completing everything with such limited time and resources.
+
+What's next for Mental Wealth Academy
+
+Continue to build and provide services for communities at scale by onboarding and curating our digital ecosystem to fine tune what resources are exactly needed.
+
+Built With
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

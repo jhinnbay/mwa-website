@@ -32,6 +32,15 @@ Mental Wealth Academy is the academic knowledge layer of the project and utilize
   - The marketplace and ecosystem for books and authorship promote reading and writing comprehension.
   - Values intellectuals and academics, ensuring Crypto and NFTs become digestible for college students.
 
+LibraryManagement.sol
+Handles the addition, verification, and storage of educational resources using IPFS and DAO governance.
+
+DAOGovernance.sol
+Manages the voting process and governance actions using Chainlink VRF and Automation.
+
+TreasuryManagement.sol
+Manages the DAO's funds, integrating Chainlink Data Feeds and Functions for financial transactions.
+
 ## Built with:
 
 - Polygon Amoy

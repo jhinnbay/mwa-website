@@ -1,103 +1,77 @@
-Inspiration
+## Inspiration
 
-Digital Libraries are vulnerable to shutdown.
+### Digital Libraries are vulnerable to shutdown.
 
 Z Library, Ron DeSantis, etc. Libraries only have limited copies of audiobooks and limited resources. There's no way to actually own books, and Amazon & other companies have taken over with unfair subscription models. There's no way to onboard the next 100,000 users in Web3 with strictly video games, NFTs, and consumer products. We created an individual ERP Platform curated to help onboard mass adoption by 74% by creating value in a with books and rich resources available online, in a decentralized manner
 
 Mental Wealth Academy is the academic knowledge layer of the project and utilizes a focus on connecting resources and a rich ecosystem while building a community of DAO consensus players to participate.
 
-Mental Wealth Academy is a full-scale full-circle ERP educational platform.
+**Mental Wealth Academy** is a full-scale full-circle ERP educational platform.
 
-What It Does & How We Built It
+## What It Does & How We Built It
 
-Utilizes DAO Technology on Polygon Network.
-DAO technology keeps resources regulated and decentralized.
-Complex Smart Contract is used to store and update the Library's directory.
-IPFS is utilized + Piñata to ensure longevity in resources and documents with data permanence.
-Cross-Chain Interoperability Protocol (CCIP) for NFT book data.
-Chainlink functions for on-demand backstory and dungeon generation.
-Users connect while providing massive learning opportunities for all.
-Marketplace and ecosystem for books and authorship promotes reading & writing comprehension.
-Ecosystem values intellectuals and academics, ensuring Crypto + NFTs become digestible for college students.
-Challenges & Accomplishments
+- **Utilizes DAO Technology on Polygon Amoy, Cardona, Avalanche Fuji C-chain, Scroll:**
+  - DAO technology ensures that resources are regulated and decentralized.
+  - Community members vote on resource additions and manage the platform’s evolution.
 
-Timezones were a huge issue to communication... it was actually very frustrating. Once we tackled the optimal timezone issues most collaboration went extremely smooth. Defeating the rough patches, after we set up a few designs and flow charts we were able to communicate with the partners we required to build our individual pieces, it was a rough finish but we did it. I'm proud of my team for completing everything with such limited time and resources.
+- **Complex Smart Contracts:**
+  - Smart contracts are used to store and update the library's directory.
+  - Implements Chainlink VRF for random selection processes and Chainlink Automation for scheduled governance actions.
 
-What's next for Mental Wealth Academy
+- **IPFS and Piñata for Data Permanence:**
+  - IPFS and Piñata ensure the longevity of resources and documents, providing data permanence.
 
-Continue to build and provide services for communities at scale by onboarding and curating our digital ecosystem to fine tune what resources are exactly needed.
+- **Cross-Chain Interoperability Protocol (CCIP):**
+  - Chainlink CCIP is used for NFT book data, enhancing cross-chain communication and asset transfers.
 
-Built With
+- **Chainlink Functions:**
+  - Chainlink Functions are used for on-demand resource verification and off-chain data interactions.
 
+- **Comprehensive Learning Ecosystem:**
+  - Users connect, providing massive learning opportunities for all.
+  - The marketplace and ecosystem for books and authorship promote reading and writing comprehension.
+  - Values intellectuals and academics, ensuring Crypto and NFTs become digestible for college students.
 
+## Built with:
 
-# Getting Started with Create React App
+- Polygon Amoy
+- Polygon Cardona
+- Avalanche Fuji C-Chain
+- Scroll
+- Chainlink Automation
+- Chainlink VRF
+- Chainlink CCIP
+- Chainlink Data Feeds
+- Chainlink Functions
+- IPFS
+- Javascript
+- Reactjs
+- Scss
+- Solidity
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Challenges & Accomplishments
 
-## Available Scripts
+- **Timezone Issues:**
+  - Communication across different timezones was initially challenging and frustrating.
+  - Once optimal communication times were established, collaboration became smoother.
 
-In the project directory, you can run:
+- **Collaboration and Design:**
+  - After overcoming initial hurdles, the team effectively communicated with partners to build individual pieces.
+  - Despite limited time and resources, the team completed the project, showcasing dedication and resilience.
+  - We gained extensive knowledge of Chainlink's VRF, Automation, Functions, Data Feeds, CCIP, Polygon, Avalanche, and Scroll.
+  - Understanding the complexities of cross-chain transactions to enable easy book purchases and library card acquisitions was a valuable learning experience.
+  - Developing a seamless user experience was a significant achievement.
 
-### `npm start`
+## What's Next for Mental Wealth Academy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Continued Development:**
+  - Continue to build and provide services for communities at scale by onboarding and curating our digital ecosystem to meet the exact needs of our community.
+  - Apply for grants to further develop and expand the platform.
+  - Deploy Mental Wealth Academy (MWA) on the mainnet for real-world use.
+  - Conduct extensive user testing to refine the platform.
+  - Launch Android and iOS applications for MWA.
+  - Enhance the AI capabilities used for generating NFT profiles to provide even more personalized and engaging user experiences.
+  - Implement gasless transactions using platforms like Biconomy or Moonbeam to enhance user convenience.
+  - Support 50+ new tokens and 20+ new chains within the next few months after the end of the hackathon.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**By aligning Mental Wealth Academy with the hackathon tracks and integrating multiple Chainlink services, we have created a robust and innovative project.**

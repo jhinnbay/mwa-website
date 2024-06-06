@@ -41,6 +41,36 @@ Manages the voting process and governance actions using Chainlink VRF and Automa
 TreasuryManagement.sol
 Manages the DAO's funds, integrating Chainlink Data Feeds and Functions for financial transactions.
 
+## Deployed Contracts
+
+TokenTranferrror 
+- https://ccip.chain.link/msg/0x73ecd982ebdce21e3789350917329035698eb5c467937d026448c2681a6e01eb
+- Polygon Amoy: https://amoy.polygonscan.com/address/0xe6d602de78a7a46f072b117a99b7e45640ab5e7c
+
+LibraryManagement
+- Polygon Amoy: https://www.oklink.com/amoy/address/0x98162dc124edb1873a03e77a2da016a8d433fde1/contract
+- Scroll Sepolia: https://sepolia.scrollscan.com/address/0x98162Dc124EdB1873A03E77a2Da016a8d433FDe1#code
+- Avalanche Fuji C-Chain: https://testnet.snowtrace.io/address/0x60588a7F3C0A1193c1db85bEF269419Ca4deE630
+- Polygon Cardona: https://cardona-zkevm.polygonscan.com/address/0x98162Dc124EdB1873A03E77a2Da016a8d433FDe1#code
+
+DAOGovernance Deployment on Supported Networks- 
+
+Polygon Amoy: https://www.oklink.com/amoy/address/0xd2859d40fa8de914e1ca231c6346b83d90c5a55f/contract
+- LINK Token: 0x0fd9e8d3af1aaee056eb9e802c3a762a667b1904
+- VRF Coordinator: 0x7E10652Cb79Ba97bC1D0F38a1e8FaD8464a8a908
+- 500 gwei Key Hash: 0x3f631d5ec60a0ce16203bcd6aff7ffbc423e22e452786288e172d467354304c8
+
+Avalanche Fuji C-Chain: https://testnet.snowtrace.io/address/0xb7EB24d08cB94Eb70E2cA87b4A1B17a490a31b61
+- LINK Token: 0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846
+- VRF Coordinator: 0x2eD832Ba664535e5886b75D64C46EB9a228C2610
+- 300 gwei Key Hash: 0x354d2f95da55398f44b7cff77da56283d9c6c829a4bdf1bbcaf2ad6a4d081f61
+
+TreasuryManagement
+- Avalanche Fuji C-chain: https://testnet.snowtrace.io/address/0xa87773540cd9024d8Cc54dfD089EDeDfFcE0A316
+- Polygon Amoy: https://www.oklink.com/amoy/address/0x67ff60619a65090d35523da1d88309d2f9702afd/contract
+- Polygon Cardona: https://cardona-zkevm.polygonscan.com/address/0x69720fB14C6e419f7F579B045f0de63cfC16E37A#code
+- Scroll Sepolia: https://sepolia.scrollscan.com/address/0x69720fB14C6e419f7F579B045f0de63cfC16E37A#code
+
 ## Built with:
 
 - Polygon Amoy
